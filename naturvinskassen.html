@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Vin, Naturvin, Naturvinskassen, Abonnement, Wine, Denmark, Danmark, Aarhus, Natur, Økologi, Mad, Tapas, Gæring, Druer, Vin, Champagne, Adventskalender, Events, Vinsmagning, Orangevin">
+    <title>Reduktivt</title>
+    <meta name="description" content="Reduktivt - din naturvinsbutik">
+    <meta name="author" content="Reduktivt">
+    <link rel="shortcut icon" href="images/reduktivt-ikon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/0bdbe266da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body>
+    <main>
+
+        <!--NAVBAR-->
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/reduktivt-logo.svg" alt="Reduktivt Logo"></a>
+                </div>
+                <div class="nav-links">
+                    <a class="naturvin nav-link" href="naturvin.html">Naturvin</a>
+                    <a class="lande nav-link" href="lande.html">Lande</a>
+                    <a class="naturvinskassen nav-link" href="naturvinskassen.html">Naturvinskassen</a>
+                    <a class="events nav-link" href="events.html">Events</a>
+                    <a class="omos nav-link" href="omos.html">Om Reduktivt</a>
+                </div>
+
+                <div class="nav-socials">
+                    <a class="nav-icon social-link" href="https://www.instagram.com/reduktivt" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="nav-icon social-link" href="https://www.facebook.com/reduktivt" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+                
+                <a class="social-link" id="hamburger-button" href="javascript:void(0);" onclick="toggleNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+    
+        <!-- HAMBURGER MENU -->
+        <div class="container">
+            <div class="content">
+                <div class="responsive-nav" id="responsive-nav">
+                    <a class="naturvin nav-link" href="naturvin.html">Naturvin</a>
+                    <a class="lande nav-link" href="lande.html">Lande</a>
+                    <a class="naturvinskassen nav-link" href="naturvinskassen.html">Naturvinskassen</a>
+                    <a class="events nav-link" href="events.html">Events</a>
+                    <a class="omos nav-link" href="omos.html">Om Reduktivt</a>
+                </div>
+            </div>
+        </div>
+
+         <!--LANDING PAGE NATURVINSKASSEN-->
+         <section class="landingpage-naturvinskassen">
+            <a href="#naturvinskassen-home"><i class="fas fa-chevron-down"></i></a>
+            <video autoplay muted loop id="landingpage-video-naturvinskassen">
+                <source src="/videos/3danim.mp4" type="video/mp4">
+              </video>
+        </section>
+
+        <!--NATURVINSKASSEN-->
+        <section class="naturvinskassen-home" id="naturvinskassen-home">
+            <div class="naturvinskassen-box">
+                <div class="naturvinskassen-header" data-aos="fade-up">
+                    <h2>Naturvinskassen</h2>
+                    <p>Få 3 udvalgte naturvine hver måned til kun 450kr. 
+                        <br>Kom tættere på vinbønderne, deres intentioner og deres hårde arbejde for hver flaske.  </p>            
+                </div>
+
+                <div class="naturvinskassen-content" data-aos="fade-up" data-aos-delay="300">        
+                    <div class="naturvinskassen-billede">
+                        <img src="images/naturvinskasse_infographic.png" alt="Illustration af naturvinskassen">
+                    </div>
+                </div>
+
+                <div class="flex-container" data-aos="fade-up" data-aos-delay="400">
+                    <div class="venstre-container"> 
+                    <h2>Hver måneds levering medfølger</h2>
+                    <ul>
+                        <li>Beskrivelser af vinene og personerne bag.</li>
+                        <li>Udvalgte madopskrifter fra nogle af landets bedste kokke og restuaranter.</li>
+                        <li>Skræddersyede "kassetilbud", kun til medlemmer af Naturvinskassen.</li>
+
+                    </ul>
+                    </div>
+
+                    <div class="højre-container">
+                    <h2>Medlemmer får følgende fordele</h2>
+                    <ul>
+                        <li>Velkomst gave og jubilæumsgave.</li>
+                        <li>Rabat på køb af vin i vores fysiske butik og på vores webshop.</li>
+                        <li>Forkøbsret på allokationsvine.</li>
+                        <li>Månedslige medlemstilbud.</li>
+                    </ul>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--HVAD ER NATURVIN BANNER HYPERLINK-->
+        <section class="hvadernaturvin-section">
+            <div class="hvad-er-naturvin-box" data-aos="fade-up">
+                <div class="hvad-er-naturvin-header">
+                    <h2>Hvad er naturvin?</h2>
+                    <p>Synes du, at det lyder det lækkert, men måske ikke helt ved hvad naturvin er? Så lad os forklare dig!</p>
+                    <a class="button-kassen" href="naturvin.html">Læs mere her</a> 
+                </div>
+
+            </div>
+        </section>
+
+        <!--FAQ-->
+        <section class="faq">
+            <div class="faq-box" data-aos="fade-up">
+                <h2 data-aos="fade-up" data-aos-delay="300">Naturvinkassens FAQ</h2>
+
+                <div class="dropdown" >
+                    <div class="dropdown__top">Hvad indeholder min kasse?</div>
+                    <div class="dropdown__btm">
+                        Hver måned vil du som medlem af naturvinskassen modtage 3 flasker udvalgt vin, som alle er lavet ud fra et naturligt udgangspunkt. Derudover vil du modtage en opskrift, kreeret af en restaurant og/eller en kok, som vi har meget kær. Udførlige beskrivelser af vinene vil selvfølgelig også medfølge, hver måned! Ved første levering modtager du en specialdesignet proptrækker, så har du noget godt værktøj at gå i krig med. 
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvor tit får jeg leveret min kasse?</div>
+                    <div class="dropdown__btm">
+                        Du vil få din naturvinskasse leveret hver måned.
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvornår bliver min kasse leveret?</div>
+                    <div class="dropdown__btm">
+                        Din kasse vil blive leveret til dig, i starten af måneden. Bestiller du 'Strakslevering' ved oprettelse af dit medlemskab, så vil din kasse afsendes inden for 1 hverdag. 
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvornår bliver min betalling trukket?</div>
+                    <div class="dropdown__btm">
+                        Din betaling vil blive reserveret den sidste dag i måneden. Du modtager en e-mail hver gang vi opretter en automatisk ordre.
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Hvad skal jeg gøre, hvis en vin har prop eller anden sygdom?</div>
+                    <div class="dropdown__btm">
+                        Se, det er ikke så godt! Men det finder vi selvfølgelig en løsning på. Naturligvis hel uden meromkostning fra din side! Skriv os en mail på info@reduktivt.com, så finder vi ud af det.
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropdown__top">Binder jeg mig i en bestemt periode?</div>
+                    <div class="dropdown__btm">
+                        Det gør du ikke, nej. Vi har ingen binding eller skjulte agendaer. Du kan melde dig fra eller sætte dit abonnement på pause, præcis når du vil.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAKTFORM -->
+        <section class="contactform-naturvinskassen">
+            <div class="cf-content-naturvinskassen" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="subscribe__title">Har du flere spørgsmål?</h2>
+                <div class="form-naturvinskassen">
+                    <input type="email" class="form__email" placeholder="Hvad kan vi hjælpe med?" />
+                    <input type="text" class="form__email" placeholder="Dit navn" />
+                </div>
+                <button class="form__button">Send</button>
+            </div>
+        </section>  
+    
+
+
+        <!--FOOTER-->
+        <footer>
+            <div class="footer-logo">
+                <a href="index.html"><img src="images/reduktivt-logo.svg" alt="Reduktivt Logo"></a>
+                <p>	&#169; Reduktivt, 2021 </p>
+            </div>
+            <div class="footer-tekst">
+                <div class="footer-menu">
+                    <h4>Menu</h4>
+                    <a class="naturvin footer-link" href="naturvin.html">Naturvin</a>
+                    <a class="lande footer-link" href="lande.html">Lande</a>
+                    <a class="naturvinskassen footer-link" href="naturvinskassen.html">Naturvinskassen</a>
+                    <a class="events footer-link" href="events.html">Events</a>
+                    <a class="omos footer-link" href="omos.html">Om Reduktivt</a>
+                </div>
+
+                <div class="footer-kontakt">
+                    <h4>Kontakt</h4>
+                    <p>Borggade 16, Aarhus</p>
+                    <a href = "mailto:info@reduktivt.com">info@reduktivt.com</a>
+                    <a href="tel:4540384012">+45 40 38 40 12</a>
+                </div>
+
+                <div class="socialemedier-footer">
+                    <h4>Sociale Medier</h4>
+                    <div class="socialemedier-ikoner-footer">
+                        <a class="footer-icon" href="https://www.instagram.com/reduktivt" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="footer-icon" href="https://www.facebook.com/reduktivt" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/app.js"></script>
+    
+</body>
+
+</html>
